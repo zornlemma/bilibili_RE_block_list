@@ -1,0 +1,22 @@
+<filters>
+  <item enabled="true">t=^(.)\1*$</item>  <!--单字,单字重复-->
+  <item enabled="true">t=(\S+)(\S*\1){4,}</item> <!--重复5次中间可干扰-->
+  <item enabled="true">t=^\d+$</item> <!--纯数字-->
+  <item enabled="true">t=^[a-z]+$|^[A-Z]+$</item> <!--纯小/大写字母，主要对付乱码、短拼音-->
+  <!--<del>纯符号</del>   bilibili 播放器\w似乎不识别中文-->
+  <item enabled="true">t=\d{2,4}\D\d{1,2}\D\d{1,2}</item> <!--时间-->
+  <item enabled="true">t=(前|qian|第)(\d|[一二三四五六七八九十百千万两几])|\d\d(个|名|以内)|观众数|在线</item> <!--开场统计人数-->
+  <item enabled="true">t=[!?.！？。]{3,}$</item> <!--符号重复结尾-->
+  <item enabled="true">t=更新|画质|养肥|火钳|我刷|刷出了|终于|有生之|看过|首页|见.滚|路过|来[晚]?了|人好[少多]|小电视|高产|没人吗|^我是来</item> <!--视频更新-->
+  <item enabled="true">t=[不|又]卡|卡[在哭死出]</item> <!--缓冲-->
+  <item enabled="true">t=好[早前晚慢]|[么靠]前|[深半]夜|早啊</item> <!--更新时间-->
+  <item enabled="true">t=每日|循环|打卡|周目|欢迎回|根本停不|顶上去</item> <!--视频循环-->
+  <item enabled="true">t=原版|报警|违和|打开方式|(什么|shenme)(鬼|gui)|开口跪|画面太美|硬币|头像</item> <!--视频质量-->
+  <item enabled="true">t=弹幕|会员|休想|霸屏|承包|版聊|报复社会|占位</item> <!--霸屏-->
+  <item enabled="true">t=(白|红|橙|黄|绿|蓝|紫)字</item> <!--彩色弹幕-->
+  <item enabled="true">t=老婆|[Ff][Ll][Aa][Gg]$|弗.格</item> <!-- -->
+  <item enabled="true">t=只有我|别(跑|走)|是一个人|等等我|带上我|带我一|人表示|笑尿|保证不|快够</item> <!--认同-->
+  <item enabled="true">t=[Yy][Oo][Oo]|红红火火|技术哪家|[dD][uU][aA][nN][gG]</item> <!-- -->
+  <item enabled="true">t=马丹|妈的|尼玛|艹|我(擦|次|操|cao)|卧槽|操\W|屌|鸡巴|日了|二[逼比]</item> <!--脏话、弱脏话-->
+  <item enabled="true">t=侵略|法西斯</item> <!--政治-->
+</filters>
