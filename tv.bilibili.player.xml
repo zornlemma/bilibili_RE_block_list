@@ -13,10 +13,12 @@
   <item enabled="true">t=每日|循环|打卡|周目|欢迎回|根本停不|顶上去</item> <!--视频循环-->
   <item enabled="true">t=原版|报警|违和|打开方式|(什么|shenme)(鬼|gui)|开口跪|画面太美|硬币|头像</item> <!--视频质量-->
   <item enabled="true">t=弹幕|会员|休想|霸屏|承包|版聊|报复社会|占位</item> <!--霸屏-->
-  <item enabled="true">t=(白|红|橙|黄|绿|蓝|紫)字</item> <!--彩色弹幕-->
+  <item enabled="true">t=(白|赤|红|橙|黄|绿|青|蓝|紫)字|我是..(白|赤|红|橙|黄|绿|青|蓝|紫)</item> <!--彩色弹幕-->
   <item enabled="true">t=老婆|[Ff][Ll][Aa][Gg]$|弗.格</item> <!-- -->
-  <item enabled="true">t=只有我|别(跑|走)|是一个人|等等我|带上我|带我一|人表示|笑尿|保证不|快够</item> <!--认同-->
-  <item enabled="true">t=[Yy][Oo][Oo]|红红火火|技术哪家|[dD][uU][aA][nN][gG]</item> <!-- -->
-  <item enabled="true">t=马丹|妈的|尼玛|艹|我(擦|次|操|cao)|卧槽|操\W|屌|鸡巴|日了|二[逼比]</item> <!--脏话、弱脏话-->
+  <item enabled="true">t=只有我|别(跑|走)|是一个人|等等我|带上我|[加带]我一|[人党]表示|笑尿|保证不|快够|贺电|大家好</item> <!--认同-->
+  <item enabled="true">t=[Yy][Oo][Oo]|红红火火|[dD][uU][aA][nN][gG]|^233</item> <!--感叹，拟声-->
+  <item enabled="true">t=挖掘机技术|技术哪家</item> <!--时词-->
+  <item enabled="true">t=马丹|妈的|尼玛|艹|我(擦|次|操|cao)|卧槽|屌|鸡巴|日了|二[逼比]</item> <!--脏话、弱脏话-->
   <item enabled="true">t=侵略|法西斯</item> <!--政治-->
+  <item enabled="false">t=非洲农业|危害大|克拉|种庄稼</item> <!--金克拉相关，自行选用-->
 </filters>
