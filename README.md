@@ -1,5 +1,5 @@
-# bilibili_RE_block_list
-bilibili RE block list/哔哩哔哩弹幕屏蔽正则表达式列表
+# bilibili_regular_expression_block_list
+bilibili regular expression block list/哔哩哔哩弹幕屏蔽正则表达式列表
 
 鉴于bilibili视频网站弹幕质量已经到几乎没法看的地步，而播放器的屏蔽列表并不是存放在云端的，
 所以用户屏蔽已经无法满足需求，必须采用正则屏蔽。
