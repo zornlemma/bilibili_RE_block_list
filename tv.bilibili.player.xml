@@ -1,7 +1,8 @@
 <filters>
+  <!-- https://github.com/zornlemma/bilibili_RE_block_list -->
   <item enabled="true">t=^(.)\1*$</item>  <!--单字,单字重复-->
   <item enabled="true">t=(\S+)(\S*\1){4,}</item> <!--重复5次中间可干扰-->
-  <item enabled="true">t=^[\d\s\.:]+$</item> <!--纯数字，日期，时间-->
+  <item enabled="true">t=\d{4}.?\d{1,2}.?\d{1,2}|\d{1,2}.?\d{1,2}.?\d{4}</item> <!--纯数字，日期，时间-->
   <item enabled="true">t=^[a-z]+$|^[A-Z]+$</item> <!--纯小/大写字母，主要对付乱码、短拼音-->
   <!--<del>纯符号</del>   bilibili 播放器\w似乎不识别中文-->
   <item enabled="true">t=(前|钱|qian|第)(\d|[一二三四五六七八九十百千万两几]|[！。!.])|\d\d(个|名|位|以内)|观众数|^(在线|播放|收藏)|^(前|qian|di)</item> <!--开场统计量-->
@@ -9,7 +10,7 @@
   <item enabled="true">t=画质|高清|火钳|^看(过|完)|首页|见.滚|路过|^来(了|早|晚|一发|啦|拉)|人好[少多]|小电视|^没人|^我是来|从隔壁|赞助播出|^不跳|(挖|新)坑|直播</item> <!--视频开头-->
   <item enabled="true">t=更新|更了|日更|..狂魔|我刷|^看我|^终于|有生之|^好久|失踪人口|夭寿|高产|母猪</item> <!--更新频率-->
   <item enabled="true">t=[不又解太]卡|卡[在哭死出]|进度条|的人生|养肥|空降</item> <!--缓冲，进度条-->
-  <item enabled="true">t=存活|存货</item> <!--视频最后-->
+  <item enabled="true">t=存活|存货|^完结</item> <!--视频最后-->
   <item enabled="true">t=^脑补|^@</item> <!--视频联想-->
   <item enabled="true">t=洛阳铲|考古$|挖坟|合影$</item> <!--挖坟-->
   <item enabled="true">t=好[早前晚快慢]|[么靠]前|[深半]夜|早啊</item> <!--更新时间-->
